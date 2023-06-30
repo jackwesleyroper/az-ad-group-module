@@ -13,6 +13,7 @@ terraform {
     }
   }
   backend "azurerm" {
+    subscription_id      = "0965ff0c-c4d3-46f4-ae56-a3ed44c86c11"
     resource_group_name  = "tf-rg"
     storage_account_name = "jacktfstatesa"
     container_name       = "terraform"
